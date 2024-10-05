@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+
+}
+
+div {
+    height: 150px;
+    width: 600px;
+    border: 1px solid black;
+     /* display: flex;
+    justify-content: center; */
+    margin: auto;
+    border-radius: 30px;
+    color:aliceblue;
+    }
+button{
+    color: aliceblue;
+    background-color: rgb(37, 42, 46);
+    border-radius: 10px;
+    font-size: 18px;
+    border: 2px solid aliceblue;
+}
+
+body {
+    background-image: url('img1.jpg');
+    background-size: cover; /* Ensures the image covers the whole page */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0;
+}
